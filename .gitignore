@@ -1,0 +1,37 @@
+# STM32 / STM32CubeIDE build output
+stm32_bluetooth/Debug/
+stm32_bluetooth/Release/
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+*.d
+*.o
+*.su
+*.cyclo
+*.a
+
+# Arduino build cache
+build/
+*.cache
+
+# Compiled C binaries (Raspberry Pi)
+raspberry_iot_socket/iot_client
+raspberry_iot_socket/iot_server
+raspberry_iot_socket/bt_stm32_bridge
+raspberry_mariadb/iot_client_sensor_device
+
+# Sensitive credentials
+raspberry_iot_socket/idpasswd.txt
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.metadata/
+*.launch
+*.ioc~
